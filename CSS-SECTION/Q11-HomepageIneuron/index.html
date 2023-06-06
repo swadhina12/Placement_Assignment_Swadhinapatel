@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<header>
+
+    <div class="header-1">
+
+        <a href="#" class="logo">
+            <img src="image/ineuron-logo.png" height="28" alt="CoolBrand">
+        </a>
+
+        <form action="">
+            <input type="search" placeholder="search here" id="search">
+            <label for="search" class="fas fa-search"></label>
+        </form>
+        <div class="login-container">
+            <form action="/action_page.php">
+                <button type="submit">Signup</button>
+              <button type="submit">Login</button>
+            </form>
+          </div>
+
+    </div>
+
+    <div class="topnav" id="myTopnav">
+         
+            
+      <div class="dropdown">
+          <button class="dropbtn">Courses 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+              <a onclick="navToggle();" href="#">data science</a>
+              <a onclick="navToggle();" href="#">BIG DATA</a>
+              <a onclick="navToggle();" href="#">DATA ANALYTICS</a>
+              <a onclick="navToggle();" href="#">WEB DEVELOPMENT</a>
+              <a onclick="navToggle();" href="#">MOBILE DEVELOPMENT</a>
+              <a onclick="navToggle();" href="#">BLOCKCHAIN</a>
+              <a onclick="navToggle();" href="#">PROGRAMMING</a>
+              <a onclick="navToggle();" href="#">CYBER SQURITY</a>
+              <a onclick="navToggle();" href="#">TESTING</a>
+              <a onclick="navToggle();" href="#">DIGITAL MARKETING</a>
+              <a onclick="navToggle();" href="#">CLOUD</a>
+              <a onclick="navToggle();" href="#">DEVOPS</a>
+              <a onclick="navToggle();" href="#">IOT</a>
+              <a onclick="navToggle();" href="#">RPA</a>
+              <a onclick="navToggle();" href="#">AR VR</a>
+              <a onclick="navToggle();" href="#">SALESFORCE</a>
+              <a onclick="navToggle();" href="#">DATA STRUCTURE</a>
+              <a onclick="navToggle();" href="#">SYSTEM DESIGN</a>
+              <a onclick="navToggle();" href="#">DATABASE</a>
+              <a onclick="navToggle();" href="#">APTITUDE</a>
+              <a onclick="navToggle();" href="#">RESUME</a>
+              <a onclick="navToggle();" href="#">K12</a>
+          </div>
+        </div>  
+        <a href="#news">One Neuron</a>
+      <a href="#contact">Job Portal</a>
+      <a href="#news"> Internship Portal</a>
+      <a href="#contact">Become an afflicate</a>
+      <a href="#news">hall of fame</a>
+      <a href="#contact">Blog</a>
+      <div class="dropdown">
+        <button class="dropbtn">company 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          
+          <a href="#">About us</a>
+<a href="#">Contact us</a>
+<a  href="#">Hack-A-than</a>
+<a  href="#">FAQs</a>
+<a  href="#">job guarantee</a>
+<a  href="#">job assistance</a>
+<a  href="#">privacy</a>
+<a  href="#">Link 3</a>
+        </div>
+      </div> 
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  
+    </div>
+
+</header>
+
+<div class="content"></div>
+
+
+<script>
+
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+<!---navbar-->
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    
+    <img src="image/h.jfif" style="width:100%">
+   
+  </div>
+  <div class="mySlides fade">
+   
+    <img src="image/hero-4.png" style="width:100%">
+   
+  </div>
+  <div class="mySlides fade">
+    
+    <img src="image/hero-hackathon.png" style="width:100%">
+ 
+  </div>
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+<script>
+  var slideIndex = 0;
+  showSlides();
+  function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for(i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if(slideIndex > slides.length) {
+      slideIndex = 1
+    }
+    slides[slideIndex - 1].style.display = "block";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+  }
+</script>
+
+<br><br>
+<!--banner end-->
+<h1>“Pure Hardwork, No Shortcuts!”</h1>
+<!--counter-->
+<div class="container-fluid">
+  <div class="wrapper">
+      
+          <div class="counter">
+              <div class="counter-icon">
+                  <object data="image/books-icon.svg" width="70px" height="70px"> </object>
+              </div>
+              <h3>Different Courses</h3>
+              <span class="counter-value">400</span><b>+</b>
+          </div>
+      
+          <div class="counter">
+              <div class="counter-icon">
+                  <object data="image/student-iocn.svg" width="70px" height="70px"> </object>
+              </div>
+              <h3>Students Enrolled</h3>
+              <span class="counter-value">400000</span><b>+</b>
+          </div>
+      
+      
+          <div class="counter">
+              <div class="counter-icon">
+                  <object data="image/credit-card-icon.svg" width="70px" height="70px"> </object>
+              </div>
+              <h3>Successful Transition</h3>
+              <span class="counter-value">10000</span><b>+</b>
+          </div>
+      
+  </div>
+</div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script>
+$(document).ready(function(){
+  $('.counter-value').each(function(){
+      $(this).prop('Counter',0).animate({
+          Counter: $(this).text()
+      },{
+          duration: 3500,
+          easing: 'swing',
+          step: function (now){
+              $(this).text(Math.ceil(now));
+          }
+      });
+  });
+});
+</script>
+<!--counter end-->
+<!--Work-->
+<h1>Our Achiever’s Work with</h1>
+<div class="achiver">
+  <div class="worker">
+    <div class="work-track">
+      <div class="work">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+      </div>
+      <div class="work">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+      </div>
+      <div class="work">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+      </div>
+      <div class="work">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+      </div>
+      <div class="work">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+      </div>
+      <div class="work">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+      </div>
+      <div class="work">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+      </div>
+      <div class="work">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+      </div>
+      <div class="work">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+      </div>
+      <div class="work">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+      </div>
+      <div class="work">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+      </div>
+      <div class="work">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+      </div>
+      <div class="work">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+      </div>
+      <div class="work">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+      </div>
+    </div>
+  </div>
+  </div>
+<!--workend-->
+  <!--fame-->
+  <h1>Hall of fame</h1>
+  <!--<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div id="testimonial-slider" class="owl-carousel">
+                <div class="fame">
+                  <div class="pic">
+                    <img src="image/b1.jpeg">
+                </div>
+                    <h3 class="title">Jay Prakash Bind
+                        <span class="post">- Program Associate, Wells Fargo</span>
+                    </h3>
+                    <p class="description">
+                      My name is Jay Prakash Bind completed my B. Tech Computer Science and Engineering from Bundelkhand University, Jhansi.</p>
+                      <i class="fa fa-linkedin-square" style="font-size:48px;color:#3B82F6"></i>
+                    </div>
+                <div class="fame">
+                  <div class="pic">
+                    <img src="image/b2.jpeg">
+                </div>
+                    <h3 class="title">Chitra Patgar
+                        <span class="post">- Programmer Analyst</span>
+                    </h3>
+                    <p class="description">
+                      I have enrolled for your ML course two years back , Python you taught in that course was awesome due to which I have cracked</p>
+                      <i class="fa fa-linkedin-square" style="font-size:48px;color:#3B82F6"></i>
+                    </div>
+                <div class="fame">
+                  <div class="pic">
+                    <img src="image/b3.jpeg">
+                </div>
+                  <h3 class="title">Sameer Kumar
+                      <span class="post">- Data Scientist, Bajaj Finserv</span>
+                  </h3>
+                  <p class="description">
+                    Hello everyone, My name is Sameer Kumar and I am a final year B.Tech student from Symbiosis Institute of Technology, Pune.</p>
+                    <i class="fa fa-linkedin-square" style="font-size:48px;color:#3B82F6"></i>
+                  </div>
+                <div class="fame">
+                  <div class="pic">
+                    <img src="image/b4.jpeg">
+                </div>
+                    <h3 class="title">Shrivatsa G
+                        <span class="post">- trainee software developer, ECOLAB</span>
+                    </h3>
+                    <p class="description">
+                      A few days back I was scheduled for an interview at ECOLABS. Thanks to Naveen Reddy sir and his wonderful Youtube channel</p>
+                      <i class="fa fa-linkedin-square" style="font-size:48px;color:#3B82F6"></i>
+                    </div>
+                <div class="fame">
+                  <div class="pic">
+                    <img src="image/b5.jpeg">
+                </div>
+                  <h3 class="title">Aakash B
+                      <span class="post">- Software Development Engineer 1, Amazon</span>
+                  </h3>
+                  <p class="description">
+                    I was following Krish Sir YouTube channel for more than 2-3 year. I learnt Machine Learning and Deep Learning from him. </p>
+                    <i class="fa fa-linkedin-square" style="font-size:48px;color:#3B82F6"></i>
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+ <script>
+$(document).ready(function(){
+    $("#testimonial-slider").owlCarousel({
+        items:2,
+        itemsDesktop:[1000,2],
+        itemsDesktopSmall:[979,2],
+        itemsTablet:[768,1],
+        pagination:false,
+        navigation:true,
+        navigationText:["",""],
+        autoPlay:true
+    });
+});
+ </script>-->
+ <!DOCTYPE html>
+ <html lang="en">
+ <!--divinectorweb.com-->
+ <head>
+   <meta charset="UTF-8">
+   <title>Responsive Team Slider using Bootstrap & Owl Carousel 2</title>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" rel="stylesheet">
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+   <link href="style.css" rel="stylesheet">
+ </head>
+ <style>
+ 
+#team {
+	padding: 30px 0;
+}
+.sec-heading h6 {
+	font-family: 'Allura', cursive;
+	font-size: 65px;
+}
+.single-box {
+	border: 1px solid #ddd;
+	border-radius: 20px;
+	overflow: hidden;
+	background-color: #fff
+}
+.info-area {
+	padding: 0 20px 45px;
+}
+.img-area {
+	overflow: hidden;
+	padding: 15px 0 15px;
+}
+.img-area img {
+	margin: 0 auto;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	max-width: 230px
+}
+.single-box{
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: #3B82F6;
+}
+.single-box:hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.info-area i {
+	display: inline-block;
+	color: #ffb400;
+	margin: 0 4px;
+}
+.info-area h4 {
+	font-weight: 600
+}
+.info-area h5 {
+	color: #fcfbff;
+	margin: 10px 0 0;
+	font-weight: 600
+}
+.info-area a {
+	display: inline-block;
+	margin: 25px 0 0;
+	background-color: darkorange;
+	color: #fff;
+	padding: 10px 35px;
+	border-radius: 4px;
+}
+.team-slider .owl-dots {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -60px;
+	text-align: center;
+	width: 100%;
+}
+.team-slider button.owl-dot {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin: 0 6px;
+	text-align: center;
+	border-radius: 50%;
+	background-color: #262626;
+}
+.team-slider .owl-dot.active {
+	background-color: coral;
+}
+.move-animation {
+	position: relative;
+	-webkit-animation: move-animation 2s ease-in-out infinite;
+	animation: move-animation 2s ease-in-out infinite;
+}
+@-webkit-keyframes move-animation {
+	0% {
+		top: 3px;
+	}
+	50% {
+		top: -3px;
+	}
+	100% {
+		top: 3px;
+	}
+}
+
+ </style>
+ <body>
+   <section id="team">
+     <div class="container">
+       <div class="row">
+         <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+           <div class="sec-heading text-center">
+             <h6>Team Members</h6>
+           </div>
+         </div>
+       </div>
+     </div>
+     <div class="testimonial-box">
+       <div class="container">
+         <div class="row">
+           <div class="col-lg-12">
+             <div class="team-slider owl-carousel">
+               <div class="single-box text-center">
+                 <div class="img-area"><img alt="" class="img-fluid move-animation" src="image/b1.jpeg"></div>
+                 <div class="info-area">
+                   <h4 style="color: #262626;">Person's Name
+                    <h6 style="color: #262626;">Web developer</h6>
+                   <p style="color: #262626;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, ullam.</p><i class="fa fa-linkedin-square" style="font-size:48px;color:#3B82F6"></i>
+                 </div>
+               </div>
+               <div class="single-box text-center">
+                 <div class="img-area"><img alt="" class="img-fluid move-animation" src="image/b2.jpeg"></div>
+                 <div class="info-area">
+                   <h4 style="color: #262626;">Person's Name</h4>
+                   <h6 style="color: #262626;">Web developer</h6>
+                   <p style="color: #262626;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, ullam.</p><i class="fa fa-linkedin-square" style="font-size:48px;color:#3B82F6"></i>
+                 </div>
+               </div>
+               <div class="single-box text-center">
+                 <div class="img-area"><img alt="" class="img-fluid move-animation" src="image/b3.jpeg"></div>
+                 <div class="info-area">
+                   <h4 style="color: #262626;">Person's Name</h4>
+                   <h6 style="color: #262626;">Web developer</h6>
+                   <p style="color: #262626;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, ullam.</p><i class="fa fa-linkedin-square" style="font-size:48px;color:#3B82F6"></i>
+                 </div>
+               </div>
+               <div class="single-box text-center">
+                 <div class="img-area"><img alt="" class="img-fluid move-animation" src="image/b4.jpeg"></div>
+                 <div class="info-area">
+                   <h4 style="color: #262626;">Person's Name</h4>
+                   <h6 style="color: #262626;">Web developer</h6>
+                   <p style="color: #262626;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, ullam.</p><i class="fa fa-linkedin-square" style="font-size:48px;color:#3B82F6"></i>
+                 </div>
+               </div>
+               <div class="single-box text-center">
+                 <div class="img-area"><img alt="" class="img-fluid move-animation" src="image/b5.jpeg"></div>
+                 <div class="info-area">
+                   <h4 style="color: #262626;">Person's Name</h4>
+                   <h6 style="color: #262626;">Web developer</h6>
+                   <p style="color: #262626;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, ullam.</p><i class="fa fa-linkedin-square" style="font-size:48px;color:#3B82F6"></i>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </section>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+   </script> 
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+   </script> 
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js">
+   </script> 
+   <script>
+          $('.team-slider').owlCarousel({
+              loop: true,            
+              nav: false,
+              autoplay: true,
+              autoplayTimeout: 5000,
+              smartSpeed: 450,
+              margin: 20,
+              responsive: {
+                  0: {
+                      items: 1
+                  },
+                  768: {
+                      items: 2
+                  },
+                  991: {
+                      items: 3
+                  },
+                  1200: {
+                      items: 3
+                  },
+                  1920: {
+                      items: 3
+                  }
+              }
+          });
+   </script>
+ </body>
+ </html>
+ 
+<!--fame end-->
+<h1>Live Program</h1>
+<center><p>Get your program with live "instructor led" learning.</p></center>
+<div class = "main-container">
+ 
+  <div class = "filter-container">
+   <!----   <div class = "category-head">
+          <ul>
+              <div class = "category-title active" id = "all">
+                  <li>All</li>
+                <span><i class ="fas fa-border-all"></i></span>
+              </div>
+              <div class = "category-title" id = "business">
+                <li>Live Programs</li>
+                
+            </div>
+              <div class = "category-title" id = "culture">
+                  <li>Affordable Programs</li>
+                  
+              </div>
+              <div class = "category-title" id = "politics">
+                <li>Community Programs</li>
+                
+            </div>
+            <div class = "category-title" id = "sports">
+              <li>One Neuron</li>
+             
+          </div>
+              <div class = "category-title" id = "finance">
+                <li>Test Series</li>
+                
+            </div>
+             
+             
+          </ul>
+      </div>-->
+
+      <div class = "posts-collect">
+          <div class = "posts-main-container">
+              <!-- single post -->
+              <div class = "all business">
+                  <div class = "post-img">
+                      <img src = "image/program/yt.jpg" alt = "post" width="430" height="250">
+                     
+                  </div>
+
+                  <div class = "post-content">
+                      <h2>YouTube Mastery Batch 2 in Hindi</h2>
+                      <p>Amresh Bharti</p>
+                  </div>
+                  <div class="articles__footer">
+                    <p><i class = "fas fa-rupee-sign"></i> 7000.00</p>
+                    <time class="btn">Live</time>
+                  </div>
+              </div>
+              <!-- end of single post -->
+              <!-- single post -->
+              <div class = "all business">
+                  <div class = "post-img">
+                      <img src = "image/program/dm.jpg" alt = "post" width="430" height="250">
+                      
+                  </div>
+
+                  <div class = "post-content">
+                    <h2>Digital Marketing Batch 2 in Hindi</h2>
+                    <p>Amresh Bharti</p>
+                </div>
+                <div class="articles__footer">
+                  <p><i class = "fas fa-rupee-sign"></i> 11000.00</p>
+                  <time class="btn">Live</time>
+                </div>
+              </div>
+              <!-- end of single post -->
+              <!-- single post -->
+              <div class = "all business">
+                  <div class = "post-img">
+                      <img src = "image/program/fb.jpg" alt = "post" width="430" height="250">
+                    
+                  </div>
+
+                  <div class = "post-content">
+                    <h2>Advance Facebook Marketing course in Hindi</h2>
+                    <p>Amresh Bharti</p>
+                </div>
+                <div class="articles__footer">
+                  <p><i class = "fas fa-rupee-sign"></i> 3000.00</p>
+                  <time class="btn">Live</time>
+                </div>
+              </div>
+              <!-- end of single post -->
+          
+
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+
+<!--hackathon-->
+<h1>Hackathon Companies</h1>
+<div class="our-clients">
+  <ul>
+    <li> <img src="image/github.png" alt=""> <img src="image/r6YemvF9_400x400.jpg" alt=""> </li>
+    <li> <img src="image/geekyants.png" alt=""> <img src="image/download.jfif" alt=""> </li>
+    <li> <img src="image/jetbrains.png" alt=""> <img src="image/jt.jfif" alt=""> </li>
+    <li> <img src="image/redis.png" alt=""> <img src="image/r.png" alt=""> </li>
+    <li> <img src="image/nvidia.png" alt=""> <img src="image/DSC00697.0.jpg" alt=""> </li>
+    <li> <img src="image/learnyst.png" alt=""> <img src="image/e.jfif" alt=""> </li>
+    <li> <img src="image/musigma.png" alt=""> <img src="image/m.jfif" alt=""> </li>
+  </ul>
+</div>
+
+<!--hackthon end-->
+<!--product-->
+<h1>Our Products</h1>
+<ul class="tilesWrap">
+	<li>
+		<img src="image/jobPortal-icon.svg" alt="Girl in a jacket">
+		<h3>Job Portal</h3>
+		<p>Use exceptional templates for a stand-out resume minus the sign up process
+		</p>
+	</li>
+	<li>
+		<img src="image/Internship-icon.svg" alt="Girl in a jacket">
+		<h3>Internship Portal</h3>
+		<p>
+			iNeuron's self-paced internship portal prioritises hands-on training with 570+ internship projects.
+		</p>
+	</li>
+	<li>
+		<img src="image/affilitatePortal-icon.svg" alt="Girl in a jacket">
+		<h3>Become an affiliate</h3>
+		<p>
+		Explore afffiliate marketing opportunity with iNeuron and attain financial frredom.
+		</p>
+	</li>
+	<li>
+		<img src="image/halloffame-icon.svg" alt="Girl in a jacket">
+		<h3>Hall of Fame</h3>
+		<p>
+			Our students placements and 10+ career trabsitions speak volumes about our courses.
+		</p>
+	</li>
+  <li>
+		<img src="image/blog-icon.svg" alt="Girl in a jacket">
+		<h3>InBlog</h3>
+		<p>
+		Explore all you want about your favourities courses.
+		</p>
+	</li>
+</ul>
+
+
+<!--2nd testimonal-->
+<h1>Tech Avengers</h1>
+<div class="container">
+  <div class="row">
+      <div class="col-md-12">
+          <div id="testimonia-slider" class="owl-carousel">
+              <div class="testimonial">
+                <div class="pic">
+                  <img src="image/team/amresh-square.png">
+              </div>
+                  <h3 class="title">Amresh Bharati
+                      <span class="post">- VP Marketing</span>
+                  </h3>
+                  <i class="fa fa-linkedin-square" style="font-size:48px;color:#3B82F6"></i>
+                  <i class="fa fa-youtube-play" style="font-size:48px;color:red"></i>
+              </div>
+              <div class="testimonial">
+                <div class="pic">
+                  <img src="image/team/hitesh-square.png">
+              </div>
+                  <h3 class="title">Hitesh Choudhary
+                      <span class="post">- CTO</span>
+                  </h3>
+                  <i class="fa fa-linkedin-square" style="font-size:48px;color:#3B82F6"></i>
+                  <i class="fa fa-youtube-play" style="font-size:48px;color:red"></i>
+              </div>
+              <div class="testimonial">
+                <div class="pic">
+                  <img src="image/team/Kiran-Sahu-square.png">
+              </div>
+                <h3 class="title">Kiran Sahu
+                    <span class="post">- Mentor</span>
+                </h3>
+                <i class="fa fa-linkedin-square" style="font-size:48px;color:#3B82F6"></i>
+                <i class="fa fa-youtube-play" style="font-size:48px;color:red"></i>
+            </div>
+              <div class="testimonial">
+                <div class="pic">
+                  <img src="image/team/krish-square.png">
+              </div>
+                  <h3 class="title">Krish Naik
+                      <span class="post">- CIO</span>
+                  </h3>
+                  <i class="fa fa-linkedin-square" style="font-size:48px;color:#3B82F6"></i>
+                  <i class="fa fa-youtube-play" style="font-size:48px;color:red"></i>
+              </div>
+              <div class="testimonial">
+                <div class="pic">
+                  <img src="image/team/Mukesh-Otwani-square.png">
+              </div>
+                <h3 class="title">Mukesh Otwani
+                    <span class="post">- VP Automation</span>
+                </h3>
+                <i class="fa fa-linkedin-square" style="font-size:48px;color:#3B82F6"></i>
+                <i class="fa fa-youtube-play" style="font-size:48px;color:red"></i>
+            </div>
+            <div class="testimonial">
+              <div class="pic">
+                <img src="image/team/mysirg-square.png">
+            </div>
+              <h3 class="title">Saurabh Shukla
+                  <span class="post">- Senior vP</span>
+              </h3>
+              <i class="fa fa-linkedin-square" style="font-size:48px;color:#3B82F6"></i>
+              <i class="fa fa-youtube-play" style="font-size:48px;color:red"></i>
+          </div>
+          <div class="testimonial">
+            <div class="pic">
+              <img src="image/team/saksham-square.png">
+          </div>
+            <h3 class="title">Saksham Choudhary
+                <span class="post">- Cyber sequrity Lead</span>
+            </h3>
+            <i class="fa fa-linkedin-square" style="font-size:48px;color:#3B82F6"></i>
+            <i class="fa fa-youtube-play" style="font-size:48px;color:red"></i>
+        </div>
+        <div class="testimonial">
+          <div class="pic">
+            <img src="image/team/Souranghsu-Pal.png">
+        </div>
+          <h3 class="title">Souranghsu Pal
+              <span class="post">- Mentor</span>
+          </h3>
+          <i class="fa fa-linkedin-square" style="font-size:48px;color:#3B82F6"></i>
+          <i class="fa fa-youtube-play" style="font-size:48px;color:red"></i>
+      </div>
+              <div class="testimonial">
+                <div class="pic">
+                  <img src="image/team/sudhanshu-square.png">
+              </div>
+                <h3 class="title">Sudhanshu Kumar
+                    <span class="post">- AI enginner and CEO</span>
+                </h3>
+                <i class="fa fa-linkedin-square" style="font-size:48px;color:#3B82F6"></i>
+                <i class="fa fa-youtube-play" style="font-size:48px;color:red"></i>
+            </div>
+            <div class="testimonial">
+              <div class="pic">
+                <img src="image/team/sunny-square.png">
+            </div>
+              <h3 class="title">Sunny bhaveen Chandra
+                  <span class="post">- Data scientist</span>
+              </h3>
+              <i class="fa fa-linkedin-square" style="font-size:48px;color:#3B82F6"></i>
+                  <i class="fa fa-youtube-play" style="font-size:48px;color:red"></i>
+          </div>
+          <div class="testimonial">
+            <div class="pic">
+              <img src="image/team/telusko-square.png">
+          </div>
+            <h3 class="title">Navin Reddy
+                <span class="post">- Senior VP</span>
+            </h3>
+            <i class="fa fa-linkedin-square" style="font-size:48px;color:#3B82F6"></i>
+                  <i class="fa fa-youtube-play" style="font-size:48px;color:red"></i>
+        </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#testimonia-slider").owlCarousel({
+      items:2,
+      itemsDesktop:[1000,2],
+      itemsDesktopSmall:[979,2],
+      itemsTablet:[768,1],
+      pagination:false,
+      navigation:true,
+      navigationText:["",""],
+      autoPlay:true
+  });
+});
+</script>
+<!--2nd testimonal end-->
+
+  <!-- partner start -->
+  
+  <h1>Our Partnered Institutions</h1>
+  <center> 
+  <ul class="client-list d-flex-wrap">
+      <li> <a href="#" class="pointer-large d-block">
+        <div class="brand-box"> <img src="image/partner/gim.svg" class="hover-opac-img"> <img src="image/partner/gim2.jfif" class="opac-img"> </div>
+        </a> </li>
+      <li> <a href="#" class="pointer-large d-block">
+        <div class="brand-box"> <img src="image/partner/keit.svg" class="hover-opac-img"> <img src="image/partner/kiet.jfif" class="opac-img"> </div>
+        </a> </li>
+      <li> <a href="#" class="pointer-large d-block">
+        <div class="brand-box"> <img src="image/partner/malnad-college.svg" class="hover-opac-img"> <img src="image/partner/malnad2.jfif" class="opac-img"> </div>
+        </a> </li>
+      <li> <a href="#" class="pointer-large d-block">
+        <div class="brand-box"> <img src="image/partner/taxila.svg" class="hover-opac-img"> <img src="image/partner/taxila.png" class="opac-img"> </div>
+        </a> </li>
+      <li> <a href="#" class="pointer-large d-block">
+        <div class="brand-box"> <img src="image/partner/vit.svg" class="hover-opac-img"> <img src="image/partner/vit.png" class="opac-img"> </div>
+        </a> </li>
+     
+    </ul>
+  </center>
+  <!-- partner end --> 
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+ <!--footer-->
+ <footer class="footer">
+  <div class="con">
+    <div class="r">
+      <div class="footer-col">
+        <h4><img src="image/ineuron-logo-white.png" alt="" srcset=""></h4>
+        <ul>
+       <li><a href="#"><i class="fa fa-map-marker"></i> 17th Floor Tower A, Brigade Signature Towers, Sannatammanahalli, Bengaluru, Karnataka 562129.</li></a>
+
+        <li><a href="mailto:someone@example.com"><i class="fa fa fa-envelope"></i> contact@ineuron.ai</a></li>
+
+          
+        <li class="iso"><img src="image/iso-9001-2015.svg" alt=""></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">Hack-A-Thon</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Job guarantee</a></li>
+          <li><a href="#">Job assistance</a></li>
+          <li><a href="#">Privacy policy</a></li>
+          <li><a href="#">Terms and conditions</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Products</h4>
+        <ul>
+          <li><a href="#">Job Portal</a></li>
+          <li><a href="#">Internship portal</a></li>
+          <li><a href="#">Become an affiliate</a></li>
+          <li><a href="#">Hall of fame</a></li>
+          <li><a href="#">InBlog</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>follow us</h4>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="floating-chat">
+  <i class="fa fa-comments" aria-hidden="true"></i>
+  <div class="chat">
+      <div class="header">
+          <span class="title">
+              what's on your mind?
+          </span>
+          <button>
+              <i class="fa fa-times" aria-hidden="true"></i>
+          </button>
+                       
+      </div>
+      <ul class="messages">
+          
+      </ul>
+      <div class="footer">
+          <div class="text-box" contenteditable="true" disabled="true"></div>
+          <button id="sendMessage">send</button>
+      </div>
+  </div>
+</div>
+
+<script>
+  var element = $('.floating-chat');
+var myStorage = localStorage;
+
+if (!myStorage.getItem('chatID')) {
+    myStorage.setItem('chatID', createUUID());
+}
+
+setTimeout(function() {
+    element.addClass('enter');
+}, 1000);
+
+element.click(openElement);
+
+function openElement() {
+    var messages = element.find('.messages');
+    var textInput = element.find('.text-box');
+    element.find('>i').hide();
+    element.addClass('expand');
+    element.find('.chat').addClass('enter');
+    var strLength = textInput.val().length * 2;
+    textInput.keydown(onMetaAndEnter).prop("disabled", false).focus();
+    element.off('click', openElement);
+    element.find('.header button').click(closeElement);
+    element.find('#sendMessage').click(sendNewMessage);
+    messages.scrollTop(messages.prop("scrollHeight"));
+}
+
+function closeElement() {
+    element.find('.chat').removeClass('enter').hide();
+    element.find('>i').show();
+    element.removeClass('expand');
+    element.find('.header button').off('click', closeElement);
+    element.find('#sendMessage').off('click', sendNewMessage);
+    element.find('.text-box').off('keydown', onMetaAndEnter).prop("disabled", true).blur();
+    setTimeout(function() {
+        element.find('.chat').removeClass('enter').show()
+        element.click(openElement);
+    }, 500);
+}
+
+function createUUID() {
+    // http://www.ietf.org/rfc/rfc4122.txt
+    var s = [];
+    var hexDigits = "0123456789abcdef";
+    for (var i = 0; i < 36; i++) {
+        s[i] = hexDigits.substr(Math.floor(Math.random() * 0x10), 1);
+    }
+    s[14] = "4"; // bits 12-15 of the time_hi_and_version field to 0010
+    s[19] = hexDigits.substr((s[19] & 0x3) | 0x8, 1); // bits 6-7 of the clock_seq_hi_and_reserved to 01
+    s[8] = s[13] = s[18] = s[23] = "-";
+
+    var uuid = s.join("");
+    return uuid;
+}
+
+function sendNewMessage() {
+    var userInput = $('.text-box');
+    var newMessage = userInput.html().replace(/\<div\>|\<br.*?\>/ig, '\n').replace(/\<\/div\>/g, '').trim().replace(/\n/g, '<br>');
+
+    if (!newMessage) return;
+
+    var messagesContainer = $('.messages');
+
+    messagesContainer.append([
+        '<li class="self">',
+        newMessage,
+        '</li>'
+    ].join(''));
+
+    // clean out old message
+    userInput.html('');
+    // focus on input
+    userInput.focus();
+
+    messagesContainer.finish().animate({
+        scrollTop: messagesContainer.prop("scrollHeight")
+    }, 250);
+}
+
+function onMetaAndEnter(event) {
+    if ((event.metaKey || event.ctrlKey) && event.keyCode == 13) {
+        sendNewMessage();
+    }
+}
+</script>
+
+</body>
+</html>
